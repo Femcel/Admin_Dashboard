@@ -24,3 +24,9 @@
 .container > div {
 	border: 3px pink dotted;
 }
+
+
+
+ul {
+	list-style: none;
+}
