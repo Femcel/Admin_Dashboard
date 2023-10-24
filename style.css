@@ -54,7 +54,8 @@
 	grid-template-columns: 3fr 1fr;
 	grid-template-rows: 1fr 1fr;
 
-	gap: 10px;
+	gap: 15px;
+	padding: 15px;
 	background-color: lightpink;
 }
 
@@ -65,8 +66,12 @@
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(3, 1fr);
-}
 
+	gap: 15px;
+}
+.project {
+	background-color: rgb(226, 121, 191);
+}
 #announcements {
 	grid-column: 2 / 3;
 	grid-row: 1 / 2;
