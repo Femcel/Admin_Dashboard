@@ -115,11 +115,45 @@ body {
 	margin-left: 6%;
 }
 
+#announcements > div {
+	padding: 20px;
+}
+#announcements > div > * {
+	word-wrap: break-word;
+}
+#middle_announcement {
+	border-top: var(--border-gray) solid 1px;
+	border-bottom: var(--border-gray) solid 1px;
+}
+
 #announcements, #trending {
 	background-color: var(--palest-pink);
 	border-radius: 5px;
 }
 
+#trending > div {
+	display: flex;
+	flex-direction: column;
+}
+#trending > div > div {
+	display: grid;
+	grid-template-columns: 70px 200px;
+	gap: 30px;
+
+	align-items: center;
+}
+#trending > div > div > img {
+	grid-column: 1 / 2;
+	grid-row: 1 / 3;
+}
+.trend_text{
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+.trend_text > * {
+	margin: 5px;
+}
 .simple_icon, .user_icon {
 	width: 1.5em;
 	height: 1.5em;
